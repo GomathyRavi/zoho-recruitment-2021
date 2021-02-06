@@ -1,0 +1,22 @@
+package zoho;
+
+public class ZhoFirst {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int K = 5, i, j, check; 
+	   // System.out.println("Value of N: " + N); 
+	  
+	    for (i = 1; i <= K; i++)  
+	    { 
+	        for (j = 1; j <= K; j++)  
+	        { 
+	            check = i < j ? i : j; 
+	            System.out.print(K - check + 1); 
+	        } 
+	        System.out.println(); 
+	    } 
+	} 
+
+	}
